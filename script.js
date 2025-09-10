@@ -24,6 +24,10 @@ SportsCar.prototype.constructor = SportsCar;
 SportsCar.prototype.getTopSpeed = function() {
   return this.topSpeed;
 };
+const car = new SportsCar("Ferrari", "Testarossa", 200);
+
+console.log(car.getMakeModel()); // Ferrari Testarossa
+console.log(car.getTopSpeed());  // 200
 
 // Do not change the code below
 window.Car = Car;
